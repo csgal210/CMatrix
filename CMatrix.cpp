@@ -215,8 +215,12 @@ void print(const CMatrix& matrix) {
 }
 int main() {
     CMatrix matrix1(2, 4, 1);
-    CMatrix matrix2(2, 4, 0);
+    CMatrix matrix2(4, 2, 0);
+
+    // TODO: Call to multiply matrices
 
     print(matrix1);
     print(matrix2);
+    // TODO:  output resulting multiplied matrix
+
 }
